@@ -58,7 +58,7 @@ const HeaderTwo = ( { styles, disableSticky, searchDisable, buttonStyle } ) => {
                                     </Link>
                                 </div>
                                 <div className="quote-icon quote-user d-block d-md-none ml--15 ml_sm--5">
-                                <Link to={process.env.PUBLIC_URL + "/login-register"} className="white-box-icon" href="#"><i className="ri-user-line"></i></Link>
+                                <Link to={process.env.PUBLIC_URL + "/login-register"} className="white-box-icon" href="#"><button>Login/Register</button></Link>
                                 </div>
                             </div>
                             <div className="mobile-menu-bar ml--15 ml_sm--5 d-block d-xl-none">
